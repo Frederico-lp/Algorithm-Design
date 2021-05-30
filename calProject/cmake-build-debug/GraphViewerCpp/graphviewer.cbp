@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="graphviewer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\GraphViewerCpp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphviewer">
+				<Option output="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/lib/libgraphviewer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/SFML/include"/>
+					<Add directory="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 graphviewer"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphviewer/fast">
+				<Option output="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/lib/libgraphviewer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/SFML/include"/>
+					<Add directory="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 graphviewer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/frederico/Desktop/CAL/Project/calProject/calProject/cmake-build-debug/GraphViewerCpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/src/edge.cpp">
+			<Option target="graphviewer"/>
+		</Unit>
+		<Unit filename="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/src/fpsmonitor.cpp">
+			<Option target="graphviewer"/>
+		</Unit>
+		<Unit filename="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/src/graphviewer.cpp">
+			<Option target="graphviewer"/>
+		</Unit>
+		<Unit filename="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/src/lines.cpp">
+			<Option target="graphviewer"/>
+		</Unit>
+		<Unit filename="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/src/node.cpp">
+			<Option target="graphviewer"/>
+		</Unit>
+		<Unit filename="/home/frederico/Desktop/CAL/Project/calProject/calProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/frederico/Desktop/CAL/Project/calProject/calProject/GraphViewerCpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GraphViewerCpp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
